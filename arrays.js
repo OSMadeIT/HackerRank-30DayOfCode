@@ -29,8 +29,7 @@ function main() {
 
     const arr = readLine().split(' ').map(arrTemp => parseInt(arrTemp, 10));
 
-    const reversedArr = arr.reverse();
-    let reversedArrStr = reversedArr.join(' ');
+    let reversedArrStr = arr.reverse().join(' ');
 
     console.log(reversedArrStr);
 }
