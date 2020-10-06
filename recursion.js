@@ -25,15 +25,7 @@ function readLine() {
 }
 
 // Complete the factorial function below.
-function factorial(n) {
-
-    if (n < 2) {
-        return 1;
-    } else {
-        return n * factorial(n - 1);
-    }
-
-}
+function factorial(n) { return n < 2 ? 1 : n * factorial(n - 1) }
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
