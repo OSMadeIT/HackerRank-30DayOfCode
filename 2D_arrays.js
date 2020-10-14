@@ -43,5 +43,5 @@ function main() {
         }
 
     }
-    console.log(Math.max.apply(null, sumArray));
+    console.log(Math.max(...sumArray));
 }
